@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #006400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+header .logo h1 {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+header .logo span {
+    color: #ffffff;
+    font-weight: normal;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #004400;
+    border-radius: 5px;
+}
+
+.hero-section {
+    background-image: url('pizza-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content h2 {
+    color: white;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content span {
+    color: #50c878;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.about-section h2 span {
+    color: #50c878;
+}
+
+.about-features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.about-features .feature {
+    width: 30%;
+}
+
+.menu-section {
+    padding: 50px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.menu-section h2 span {
+    color: red;
+}
+
+.menu-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.menu-item {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.delivery-section {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.delivery-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.option {
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: darkred;
+}
+
+.contact-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-section h2 span {
+    color: green;
+}
+
+footer {
+    background-color: #d9534f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.footer-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
